@@ -8,6 +8,7 @@ const Movie = (props) => {
   const [movie, setMovie] = useState();
   //console.log('movie', props);
   const {id} = useParams();
+  //console.log(id);
   useEffect(() => {
     //const id = 1;
     // const id = (movie.id) => {
